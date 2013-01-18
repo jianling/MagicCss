@@ -29,9 +29,11 @@
 }
 .mg-carousel-horizontal .mg-carousel-previous,
 .mg-carousel-horizontal .mg-carousel-previous:link,
+.mg-carousel-horizontal .mg-carousel-previous:active,
 .mg-carousel-horizontal .mg-carousel-previous:visited {background-position: 0px 0px;}
 .mg-carousel-horizontal .mg-carousel-next,
 .mg-carousel-horizontal .mg-carousel-next:link,
+.mg-carousel-horizontal .mg-carousel-next:active,
 .mg-carousel-horizontal .mg-carousel-next:visited {background-position: -42px 0px;}
 .mg-carousel-horizontal .mg-carousel-previous:hover {
     background-position: 0px -42px;
@@ -79,9 +81,11 @@
 
 .mg-carousel-vertical .mg-carousel-previous,
 .mg-carousel-vertical .mg-carousel-previous:link,
+.mg-carousel-vertical .mg-carousel-previous:active,
 .mg-carousel-vertical .mg-carousel-previous:visited {background-position: -8px 0px;}
 .mg-carousel-vertical .mg-carousel-next,
 .mg-carousel-vertical .mg-carousel-next:link,
+.mg-carousel-vertical .mg-carousel-next:active,
 .mg-carousel-vertical .mg-carousel-next:visited {background-position: -8px -42px;}
 .mg-carousel-vertical .mg-carousel-previous:hover {
     background-position: -70px 0px;

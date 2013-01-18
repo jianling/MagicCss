@@ -1,5 +1,5 @@
 .mg-datepicker-table{
-    border: 1px solid #ccc;
+    border: 1px solid #CCC;
     border-top: 0;
 }
 .mg-datepicker-table tbody td {
@@ -26,7 +26,7 @@
 /* 高亮的日期 */
 .mg-datepicker-table tbody td.mg-datepicker-highlight {
     background-color: #CC8E00;
-    color: #fff;
+    color: #FFF;
 }
 
 /**
@@ -39,17 +39,17 @@
  *      timer插件的样式
  */
 .mg-datepicker-timer-character {
-    color: #fff;
+    color: #FFF;
 }
 /* 浮动数值区域 */
 .mg-datepicker-timer-choosen {
-    background: #fff;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background: #FFF;
+    background-color: #FFF;
+    border: 1px solid #CCC;
 }
 .mg-datepicker-timer-over {
     background-color: #1F69FF;
-    color: #fff;
+    color: #FFF;
 }
 /* 时分秒区域 */
 .mg-datepicker-timer-character{
@@ -61,7 +61,7 @@
 
 /* 今天插件区域 */
 .mg-datepicker .mg-datepicker-footer {
-    border: 1px solid #ccc;
+    border: 1px solid #FFF;
     border-width: 0 1px 1px 1px;
 }
 

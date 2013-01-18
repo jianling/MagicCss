@@ -16,7 +16,7 @@
     position:absolute;
     top:0;
     right:0;
-    background:url(bg.gif) repeat-y -18px 0;
+    background:url(./bg.gif) repeat-y -18px 0;
 }
 .mg-scrollpanel .mg-slider .mg-inner {
     position: relative;
@@ -61,11 +61,11 @@
     display: block;
     height: 16px;
     width: 16px;
-    border:1px solid #d2d2d3;
+    border:1px solid #D2D2D3;
     outline: none;
     z-index: 10;
     cursor: default;
 }
 .mg-scrollpanel .mg-slider-vtl .mg-knob {
-    background:#fff;
+    background:#FFF;
 }

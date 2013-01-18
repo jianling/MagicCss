@@ -95,7 +95,7 @@ pre.prettyprint {
     overflow: hidden;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    width: 100%;
+    /*width: 100%;*/
 }
 pre.prettyprint:after {
     display: block;

@@ -1,5 +1,5 @@
 .mg-tooltip{
-    background-color: #ffffff;
+    background-color: #FFF;
     border: 1px solid #D6D6D6;
     padding: 5px 8px;
     width: 140px;    
@@ -16,7 +16,7 @@
 }
 
 .mg-tooltip .mg-tooltip-arrow{
-    background:#ffffff url(components/default/magic.Tooltip/arrow.gif) no-repeat;
+    background:#FFF url(./components/default/magic.Tooltip/arrow.gif) no-repeat;
     _font-size: 0px;
 }
 

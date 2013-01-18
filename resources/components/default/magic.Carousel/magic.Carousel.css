@@ -1,5 +1,5 @@
 .mg-carousel .mg-carousel-container{
-    background-color: #ffffff;
+    background-color: #FFF;
     border: 1px solid #D6D6D6;
 }
 
@@ -25,7 +25,7 @@
     margin: 45px 8px 5px;
     width: 18px;
     height: 34px;
-    background: url(components/default/magic.Carousel/carousel-btn.png) no-repeat;
+    background: url(./components/default/magic.Carousel/carousel-btn.png) no-repeat;
 }
 .mg-carousel-horizontal .mg-carousel-previous,
 .mg-carousel-horizontal .mg-carousel-previous:link,
@@ -35,11 +35,11 @@
 .mg-carousel-horizontal .mg-carousel-next:visited {background-position: -42px 0px;}
 .mg-carousel-horizontal .mg-carousel-previous:hover {
     background-position: 0px -42px;
-    background-color: #0084ff;
+    background-color: #0084FF;
 }
 .mg-carousel-horizontal .mg-carousel-next:hover {
     background-position: -42px -42px;
-    background-color: #0084ff;
+    background-color: #0084FF;
 }
 
 .mg-carousel-horizontal .mg-carousel-previous-disabled,
@@ -74,7 +74,7 @@
     padding: 4px 5px;
     width: 34px;
     height: 34px;
-    background: url(components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
+    background: url(./components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
 }
 
 .mg-carousel-vertical .mg-carousel-previous,
@@ -85,11 +85,11 @@
 .mg-carousel-vertical .mg-carousel-next:visited {background-position: -8px -42px;}
 .mg-carousel-vertical .mg-carousel-previous:hover {
     background-position: -70px 0px;
-    background-color: #0084ff;
+    background-color: #0084FF;
 }
 .mg-carousel-vertical .mg-carousel-next:hover {
     background-position: -70px -42px;
-    background-color: #0084ff;
+    background-color: #0084FF;
 }
 
 .mg-carousel-vertical .mg-carousel-previous-disabled,

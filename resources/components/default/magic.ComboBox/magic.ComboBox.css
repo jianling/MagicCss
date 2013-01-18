@@ -1,15 +1,15 @@
 .mg-combobox-container {
 	border :1px solid #D6D6D6;
 	border-bottom:0;
-	background : #fff;
+	background : #FFF;
 }
 .mg-combobox .mg-combobox-input {
 	color : #333;
 }
 .mg-combobox-disable .mg-combobox-input-container {
-	background : #f3f3f3;
+	background : #F3F3F3;
 }
 .mg-combobox-disable .mg-combobox-input {
-	background : #f3f3f3;
-	color : #cacaca;
+	background : #F3F3F3;
+	color : #CACACA;
 }

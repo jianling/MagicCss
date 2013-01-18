@@ -10,6 +10,7 @@
     -webkit-background-clip: padding-box;
     -moz-background-clip: padding;
     background-clip: padding-box;
+    text-align: left;
 }
 .mg-dropdown-item {
     display: block;

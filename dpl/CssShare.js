@@ -6,29 +6,29 @@ baidu(function(){
      * @description 自动识别字符串开头的缩进，缩进最顶级到行首，同时去除首位空行
      */
     function fixTab(str) {
-        if(!str) return;
-        var arr, i, line, spaces, min_spaces;
+        // if(!str) return;
+        // var arr, i, line, spaces, min_spaces;
 
-        str = str.replace(/\t/g, '    ');
-        arr = str.split('\n');
+        // str = str.replace(/\t/g, '    ');
+        // arr = str.split('\n');
 
-        while( arr[0].isEmpty() ) arr.shift();
-        while( arr[arr.length-1].isEmpty() ) arr.pop();
+        // while( arr[0].isEmpty() ) arr.shift();
+        // while( arr[arr.length-1].isEmpty() ) arr.pop();
 
-        for ( i = 0; i < arr.length; ++i ) {
-            line = arr[i];
-            if( line.isEmpty() ) continue;
-            spaces = /^ +/.exec(line);
-            if( !spaces ) 
-                min_spaces = 0;
-            else if( min_spaces == undefined || spaces[0].length < min_spaces.length ) min_spaces = spaces[0];
-        }
+        // for ( i = 0; i < arr.length; ++i ) {
+        //     line = arr[i];
+        //     if( line.isEmpty() ) continue;
+        //     spaces = /^ +/.exec(line);
+        //     if( !spaces ) 
+        //         min_spaces = 0;
+        //     else if( min_spaces == undefined || spaces[0].length < min_spaces.length ) min_spaces = spaces[0];
+        // }
 
-        if ( min_spaces ) for (i = 0; i < arr.length; i++) {
-            arr[i] = arr[i].substr(min_spaces.length);
-        }
+        // if ( min_spaces ) for (i = 0; i < arr.length; i++) {
+        //     arr[i] = arr[i].substr(min_spaces.length);
+        // }
 
-        return arr.join('\n');
+        // return arr.join('\n');
     }
     var $nav = baidu('<ul>').appendTo(baidu('<div class="nav">').appendTo('body'));
     var section_pos = [];
@@ -72,9 +72,9 @@ baidu(function(){
         //         prettyPrint();
         //     }
         // });
-        var html_code = fixTab( $example.html() );
-        var $example_code = baidu('<pre>').text(html_code).addClass('prettyprint').addClass('html');
-        $example.before($example_code);
+        // var html_code = fixTab( $example.html() );
+        // var $example_code = baidu('<pre>').text(html_code).addClass('prettyprint').addClass('html');
+        // $example.before($example_code);
         makeNavFor($section);
     });
     function updateCurrentNav (){
@@ -102,5 +102,6 @@ baidu(function(){
     baidu(window).scroll(fixNavPosition).resize(fixNavPosition);
     updateCurrentNav();
     prettyPrint();
-    baidu('a[href=#]').removeAttr('href').css('cursor', 'pointer'); //禁止导航
+    // baidu('a[href=#]').removeAttr('href').css('cursor', 'pointer'); //禁止导航
+     baidu('a[href=#]').removeAttr('href'); 
 });

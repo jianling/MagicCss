@@ -27,9 +27,10 @@
     height: 34px;
     background: url(components/default/magic.Carousel/carousel-btn.png) no-repeat;
 }
-
+.mg-carousel-horizontal .mg-carousel-previous,
 .mg-carousel-horizontal .mg-carousel-previous:link,
 .mg-carousel-horizontal .mg-carousel-previous:visited {background-position: 0px 0px;}
+.mg-carousel-horizontal .mg-carousel-next,
 .mg-carousel-horizontal .mg-carousel-next:link,
 .mg-carousel-horizontal .mg-carousel-next:visited {background-position: -42px 0px;}
 .mg-carousel-horizontal .mg-carousel-previous:hover {
@@ -41,7 +42,7 @@
     background-color: #0084ff;
 }
 
-
+.mg-carousel-horizontal .mg-carousel-previous-disabled,
 .mg-carousel-horizontal .mg-carousel-previous-disabled:link,
 .mg-carousel-horizontal .mg-carousel-previous-disabled:visited,
 .mg-carousel-horizontal .mg-carousel-previous-disabled:hover,
@@ -49,6 +50,7 @@
     background-position: 0px -84px;
 }
 
+.mg-carousel-horizontal .mg-carousel-next-disabled,
 .mg-carousel-horizontal .mg-carousel-next-disabled:link,
 .mg-carousel-horizontal .mg-carousel-next-disabled:visited,
 .mg-carousel-horizontal .mg-carousel-next-disabled:hover,
@@ -75,8 +77,10 @@
     background: url(components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
 }
 
+.mg-carousel-vertical .mg-carousel-previous,
 .mg-carousel-vertical .mg-carousel-previous:link,
 .mg-carousel-vertical .mg-carousel-previous:visited {background-position: -8px 0px;}
+.mg-carousel-vertical .mg-carousel-next,
 .mg-carousel-vertical .mg-carousel-next:link,
 .mg-carousel-vertical .mg-carousel-next:visited {background-position: -8px -42px;}
 .mg-carousel-vertical .mg-carousel-previous:hover {
@@ -88,7 +92,7 @@
     background-color: #0084ff;
 }
 
-
+.mg-carousel-vertical .mg-carousel-previous-disabled,
 .mg-carousel-vertical .mg-carousel-previous-disabled:link,
 .mg-carousel-vertical .mg-carousel-previous-disabled:visited,
 .mg-carousel-vertical .mg-carousel-previous-disabled:hover,
@@ -96,6 +100,7 @@
     background-position: -132px 0px;
 }
 
+.mg-carousel-vertical .mg-carousel-next-disabled,
 .mg-carousel-vertical .mg-carousel-next-disabled:link,
 .mg-carousel-vertical .mg-carousel-next-disabled:visited,
 .mg-carousel-vertical .mg-carousel-next-disabled:hover,

@@ -3,7 +3,6 @@ body, html {
     padding: 0;
 }
 body {
-    margin-top: 130px;
 }
 pre {
     margin: 1em 0px;
@@ -23,10 +22,6 @@ div.header {
     background: -o-linear-gradient(left, rgba(41, 32, 104, 1), rgba(76, 13, 105, 1));
     background: linear-gradient(left, rgba(41, 32, 104, 1), rgba(76, 13, 105, 1));
     height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 100;
     box-shadow: inset 0 -5px 5px rgba(0,0,0,.2), 0 15px 15px white;
 }
@@ -45,6 +40,7 @@ div.header h1 {
 }
 div.nav {
     position: fixed;
+    *position: absolute;
     top: 130px;
     left: 30px;
     width: 250px;
@@ -89,13 +85,17 @@ div.nav li:last-child a{
 }
 pre.prettyprint {
     font-family: consolas;
-    font-size: 12px;
+    font-size: 10px;
     border: 1px solid #EEE;
     padding: 10px;
     display: block;
     border-radius: 5px;
     padding-top: 30px;
     position: relative;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 100%;
 }
 pre.prettyprint:after {
     display: block;

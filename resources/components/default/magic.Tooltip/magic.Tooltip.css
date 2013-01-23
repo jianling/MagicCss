@@ -12,11 +12,11 @@
 }
 
 .mg-tooltip .close-btn{
-    background: url(./components/default/magic.Tooltip/close.gif) no-repeat transparent;
+    background: url(../resources/components/default/magic.Tooltip/close.gif) no-repeat transparent;
 }
 
 .mg-tooltip .mg-tooltip-arrow{
-    background:#FFF url(./components/default/magic.Tooltip/arrow.gif) no-repeat;
+    background:#FFF url(../resources/components/default/magic.Tooltip/arrow.gif) no-repeat;
     _font-size: 0px;
 }
 

@@ -16,7 +16,7 @@
     position:absolute;
     top:0;
     right:0;
-    background:url(./bg.gif) repeat-y -18px 0;
+    background:url(../resources/components/base/magic.ScrollPanel/bg.gif) repeat-y -18px 0;
 }
 .mg-scrollpanel .mg-slider .mg-inner {
     position: relative;

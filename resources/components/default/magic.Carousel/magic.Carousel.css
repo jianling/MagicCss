@@ -25,7 +25,7 @@
     margin: 45px 8px 5px;
     width: 18px;
     height: 34px;
-    background: url(./components/default/magic.Carousel/carousel-btn.png) no-repeat;
+    background: url(../resources/components/default/magic.Carousel/carousel-btn.png) no-repeat;
 }
 .mg-carousel-horizontal .mg-carousel-previous,
 .mg-carousel-horizontal .mg-carousel-previous:link,
@@ -76,7 +76,7 @@
     padding: 4px 5px;
     width: 34px;
     height: 34px;
-    background: url(./components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
+    background: url(../resources/components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
 }
 
 .mg-carousel-vertical .mg-carousel-previous,

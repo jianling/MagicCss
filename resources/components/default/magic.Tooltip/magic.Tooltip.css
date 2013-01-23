@@ -12,6 +12,10 @@
 }
 
 .mg-tooltip .close-btn{
+    width:10px; 
+    height:9px; 
+    top:8px; 
+    right:5px;
     background: url(../resources/components/default/magic.Tooltip/close.gif) no-repeat transparent;
 }
 

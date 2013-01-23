@@ -60,10 +60,22 @@
     background-position: -42px -84px;
 }
 
+.mg-carousel-horizontal .mg-carousel-container .mg-btn{
+    margin: 45px 0px 5px;
+}
+
+.mg-carousel-horizontal .mg-carousel-container .mg-carousel-previous{
+    left: 0px;
+}
+
+.mg-carousel-horizontal .mg-carousel-container .mg-carousel-next{
+    right: 0px;
+}
+
 /* carousel vertical*/
 .mg-carousel-vertical{
     width: 142px;
-    height: 668px;
+    height: 675px;
 }
 
 .mg-carousel-vertical .mg-carousel-container{
@@ -112,3 +124,14 @@
     background-position: -132px -42px;
 }
 
+.mg-carousel-vertical .mg-carousel-container .mg-btn{
+    margin: 0px 5px 0px 47px;
+}
+
+.mg-carousel-vertical .mg-carousel-container .mg-carousel-previous{
+    top: 0px;
+}
+
+.mg-carousel-vertical .mg-carousel-container .mg-carousel-next{
+    bottom: 0px;
+}

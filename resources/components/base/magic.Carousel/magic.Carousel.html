@@ -1,7 +1,14 @@
 <h2>图片轮播组件</h2>
 <p>多张图片并列展示，可以采用横排或者竖排的方式，通过两边的按钮切换选中的图片，支持自动滚动和循环滚动，多用于新闻图片轮播和图片产品的图片轮播展示。</p>
+<style type="text/css">
+    .demo-title{
+        clear: both;
+        padding: 15px;
+    }
+</style>
 <!-- demo start -->
 <!-- tpl start -->
+<div class="demo-title">水平轮播箭头外嵌</div>
 <div class="mg-carousel mg-carousel-horizontal">
     <a href="#" class="mg-carousel-previous mg-btn"></a>
     <div class="mg-carousel-container mg-shadow">
@@ -14,7 +21,20 @@
     </div>
     <a href="#" class="mg-carousel-next mg-btn"></a>
 </div>
-
+<div class="demo-title">水平轮播箭头内嵌</div>
+<div class="mg-carousel mg-carousel-horizontal">    
+    <div class="mg-carousel-container mg-shadow">
+        <ul>
+            <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
+            <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
+            <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
+            <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
+        </ul>
+        <a href="#" class="mg-carousel-previous mg-btn"></a>
+        <a href="#" class="mg-carousel-next mg-btn"></a>
+    </div>
+</div>
+<div class="demo-title">垂直轮播箭头外嵌</div>
 <div class="mg-carousel mg-carousel-vertical">
     <a href="#" class="mg-carousel-previous mg-btn"></a>
     <div class="mg-carousel-container mg-shadow">
@@ -26,6 +46,19 @@
         </ul>
     </div>
     <a href="#" class="mg-carousel-next mg-btn"></a>
+</div>
+<div class="demo-title">垂直轮播箭头内嵌</div>
+<div class="mg-carousel mg-carousel-vertical">
+    <div class="mg-carousel-container mg-shadow">
+        <ul>
+            <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
+            <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
+            <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
+            <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
+        </ul>
+        <a href="#" class="mg-carousel-previous mg-btn"></a>
+        <a href="#" class="mg-carousel-next mg-btn"></a>
+    </div>
 </div>
 <!-- tpl end -->
 <!-- demo end -->

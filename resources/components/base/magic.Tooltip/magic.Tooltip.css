@@ -14,12 +14,9 @@
 
 .mg-tooltip .close-btn{
     position:absolute; 
-    width:10px; 
-    height:9px; 
-    top:8px; 
-    right:5px;
     display: block;
     outline: none;
+    cursor: pointer;
 }
 
 .mg-tooltip .mg-tooltip-content{

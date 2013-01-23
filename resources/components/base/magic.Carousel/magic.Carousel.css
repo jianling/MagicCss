@@ -9,11 +9,14 @@
     float: left;
 }
 
+.mg-carousel .mg-carousel-container .mg-btn{
+    position: absolute;
+}
+
 .mg-carousel .mg-carousel-container ul{
     position: absolute;
 }
 
 .mg-carousel .mg-carousel-container li{
-    /*display: inline-block;*/
     float: left;
 }

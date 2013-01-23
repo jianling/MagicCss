@@ -68,9 +68,8 @@
     <script type="text/javascript" src="CssShare.js"></script>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="CssShare.css" />
-    <link rel="stylesheet" href="../resources/importUnits.php?units=textinput,button,title,dropdown,icon&skins=default" />
-    <link rel="stylesheet" href="../resources/import.php?components=magic.Carousel,magic.ComboBox,magic.DatePicker,magic.Dialog,magic.Pager,magic.ScrollPanel,magic.Suggestion,magic.Tooltip,&skins=default" />
     <link rel="stylesheet" href="../resources/units/default/common.css" />
+    <link rel="stylesheet" href="../resources/import.php" />
 </head>
 <body>
     <div class="header">        

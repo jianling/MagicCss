@@ -1,5 +1,5 @@
 .mg-datepicker-table{
-    border: 1px solid #CCC;
+    border: 1px solid #d4d4d4;
     border-top: 0;
 }
 .mg-datepicker-table tbody td {
@@ -61,7 +61,7 @@
 
 /* 今天插件区域 */
 .mg-datepicker .mg-datepicker-footer {
-    border: 1px solid #FFF;
+    border: 1px solid #d4d4d4;
     border-width: 0 1px 1px 1px;
 }
 

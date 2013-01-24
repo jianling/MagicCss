@@ -1,0 +1,8 @@
+.mg-dialog {
+    border: 1px solid #d4d4d4;
+}
+.mg-dialog .mg-footer {
+    background-color: #F4F4F4;
+    border: 1px solid #d4d4d4;
+    border-width: 1px 0 0;
+}

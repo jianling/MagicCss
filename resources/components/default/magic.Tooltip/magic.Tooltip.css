@@ -1,8 +1,7 @@
 .mg-tooltip{
     background-color: #FFF;
     border: 1px solid #D6D6D6;
-    padding: 5px 8px;
-    width: 140px;    
+    padding: 5px 14px 5px 8px;
 }
 
 .mg-tooltip .mg-btn{
@@ -14,8 +13,8 @@
 .mg-tooltip .close-btn{
     width:10px; 
     height:9px; 
-    top:8px; 
-    right:5px;
+    top:2px; 
+    right:2px;
     background: url(../resources/components/default/magic.Tooltip/close.gif) no-repeat transparent;
 }
 

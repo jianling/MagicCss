@@ -1,4 +1,7 @@
 /** @import units: [button] **/
+.mg-carousel{
+    _position: relative;
+}
 .mg-carousel .mg-carousel-container{
     position: relative;
     float:left;

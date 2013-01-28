@@ -5,6 +5,14 @@
         clear: both;
         padding: 15px;
     }
+    .demo-block{
+        float: left;
+        margin-right: 200px;
+        _position: relative;
+    }
+    .demo-vertical{
+        _position: relative;
+    }
 </style>
 <!-- demo start -->
 <!-- tpl start -->
@@ -34,30 +42,36 @@
         <a href="#" class="mg-carousel-next mg-btn"></a>
     </div>
 </div>
-<div class="demo-title">垂直轮播箭头外嵌</div>
-<div class="mg-carousel mg-carousel-vertical">
-    <a href="#" class="mg-carousel-previous mg-btn"></a>
-    <div class="mg-carousel-container mg-shadow">
-        <ul>
-            <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
-            <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
-            <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
-            <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
-        </ul>
+<div class="clearfix demo-vertical">
+    <div class="demo-block">
+        <div class="demo-title">垂直轮播箭头外嵌</div>
+        <div class="mg-carousel mg-carousel-vertical">
+            <a href="#" class="mg-carousel-previous mg-btn"></a>
+            <div class="mg-carousel-container mg-shadow">
+                <ul>
+                    <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
+                    <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
+                    <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
+                    <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
+                </ul>
+            </div>
+            <a href="#" class="mg-carousel-next mg-btn"></a>
+        </div>
     </div>
-    <a href="#" class="mg-carousel-next mg-btn"></a>
-</div>
-<div class="demo-title">垂直轮播箭头内嵌</div>
-<div class="mg-carousel mg-carousel-vertical">
-    <div class="mg-carousel-container mg-shadow">
-        <ul>
-            <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
-            <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
-            <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
-            <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
-        </ul>
-        <a href="#" class="mg-carousel-previous mg-btn"></a>
-        <a href="#" class="mg-carousel-next mg-btn"></a>
+    <div class="demo-block">
+        <div class="demo-title">垂直轮播箭头内嵌</div>
+        <div class="mg-carousel mg-carousel-vertical">
+            <div class="mg-carousel-container mg-shadow">
+                <ul>
+                    <li><img src="../resources/components/default/magic.Carousel/item/0.png"/></li>
+                    <li class="mg-selected"><img src="../resources/components/default/magic.Carousel/item/1.png"/></li>
+                    <li><img src="../resources/components/default/magic.Carousel/item/2.png"/></li>
+                    <li><img src="../resources/components/default/magic.Carousel/item/3.png"/></li>
+                </ul>
+                <a href="#" class="mg-carousel-previous mg-btn"></a>
+                <a href="#" class="mg-carousel-next mg-btn"></a>
+            </div>
+        </div>
     </div>
 </div>
 <!-- tpl end -->

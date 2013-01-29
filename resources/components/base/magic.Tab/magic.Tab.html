@@ -1,0 +1,93 @@
+<h2>选项卡组件</h2>
+<p>通过选中不同的标题切换相应的内容。</p>
+<style type="text/css">
+    .demo-tab{
+        _position: relative;
+    }
+
+    .mg-tab{
+        margin-bottom: 10px;
+    }
+
+    .demo-tab .demo-block{
+
+    }
+    
+    .mg-tab-top .mg-tab-container p{
+        margin-top: 1em;
+    }
+
+    .mg-tab-bottom .mg-tab-container p{
+        margin-bottom: 1em;
+    }
+
+    .mg-tab-right .mg-tab-container p{
+        margin-left: 1em;
+    }
+
+    .mg-tab-left .mg-tab-container p{
+        margin-right: 1em;
+    }
+</style>
+<!-- demo start -->
+<!-- tpl start -->
+<div class="clearfix demo-tab">
+    <div class="demo-title">标签栏在上边</div>
+    <div class="mg-tab mg-tab-top">
+        <div class="mg-tab-bar">
+            <div class="mg-btn mg-tab-selected">Section 1</div>
+            <div class="mg-btn">Section 2</div>
+            <div class="mg-btn">Section 3</div>
+        </div>
+        <div class="mg-tab-container">
+            <div class="mg-tab-panel mg-tab-shown"><p>I am the first panel</p></div>
+            <div class="mg-tab-panel"><p>I am the second panel</p></div>
+            <div class="mg-tab-panel"><p>I am the third panel</p></div>
+        </div>
+    </div>
+    <div class="demo-title">标签栏在下边</div>
+    <div class="mg-tab mg-tab-bottom">
+        <div class="mg-tab-container">
+            <div class="mg-tab-panel mg-tab-shown"><p>I am the first panel</p></div>
+            <div class="mg-tab-panel"><p>I am the second panel</p></div>
+            <div class="mg-tab-panel"><p>I am the third panel</p></div>
+        </div>
+        <div class="mg-tab-bar">
+            <div class="mg-btn mg-tab-selected">Section 1</div>
+            <div class="mg-btn">Section 2</div>
+            <div class="mg-btn">Section 3</div>
+        </div>
+    </div>
+    <div class="demo-block">
+        <div class="demo-title">标签栏在左边</div>
+        <div class="mg-tab mg-tab-left">
+            <div class="mg-tab-bar">
+                <div class="mg-btn mg-tab-selected">Section 1</div>
+                <div class="mg-btn">Section 2</div>
+                <div class="mg-btn">Section 3</div>
+            </div>
+            <div class="mg-tab-container">
+                <div class="mg-tab-panel mg-tab-shown"><p>I am the first panel</p></div>
+                <div class="mg-tab-panel"><p>I am the second panel</p></div>
+                <div class="mg-tab-panel"><p>I am the third panel</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="demo-block">
+        <div class="demo-title">标签栏在右边</div>
+        <div class="mg-tab mg-tab-right">
+            <div class="mg-tab-container">
+                <div class="mg-tab-panel mg-tab-shown"><p>I am the first panel</p></div>
+                <div class="mg-tab-panel"><p>I am the second panel</p></div>
+                <div class="mg-tab-panel"><p>I am the third panel</p></div>
+            </div>
+            <div class="mg-tab-bar">
+                <div class="mg-btn mg-tab-selected">Section 1</div>
+                <div class="mg-btn">Section 2</div>
+                <div class="mg-btn">Section 3</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- tpl end -->
+<!-- demo end -->

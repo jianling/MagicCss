@@ -1,0 +1,106 @@
+/** @import units: [button] **/
+/* tab bar */
+.mg-tab-top .mg-tab-bar:after,
+.mg-tab-bottom .mg-tab-bar:after,
+.mg-tab-right:after,
+.mg-tab-left:after{
+    display: block;
+    content: ".";
+    visibility: hidden;
+    height: 0px;
+    clear: both;
+}
+
+.mg-tab-top .mg-tab-bar,
+.mg-tab-bottom .mg-tab-bar,
+.mg-tab-right,
+.mg-tab-left{
+    zoom: 1;
+}
+
+.mg-tab .mg-tab-bar .mg-btn{
+    padding: 8px 12px 8px 12px;
+    white-space: nowrap;
+    border-color: transparent;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.mg-tab-top .mg-tab-bar .mg-btn,
+.mg-tab-bottom .mg-tab-bar .mg-btn{
+    float: left;
+    margin-right: 2px;
+    display: inline;
+}
+
+.mg-tab-right .mg-tab-bar .mg-btn,
+.mg-tab-left .mg-tab-bar .mg-btn{
+    margin-bottom: 2px;
+    display: block;
+}
+
+.mg-tab .mg-tab-bar .mg-tab-selected{
+    background-color: white;
+    background-image: none;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.mg-tab-top .mg-tab-bar .mg-tab-selected{
+    margin-bottom: -1px;
+}
+
+.mg-tab-top .mg-tab-bar .mg-btn{
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.mg-tab-bottom .mg-tab-bar .mg-tab-selected{
+    margin-top: -1px;
+}
+
+.mg-tab-bottom .mg-tab-bar .mg-btn{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.mg-tab-left .mg-tab-bar .mg-tab-selected{
+    margin-right: -1px;
+}
+
+.mg-tab-left .mg-tab-bar .mg-btn{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.mg-tab-right .mg-tab-bar,
+.mg-tab-left .mg-tab-bar{
+    float: left;
+}
+
+.mg-tab-right .mg-tab-container,
+.mg-tab-left .mg-tab-container{
+    float: left;
+}
+
+.mg-tab-right .mg-tab-bar .mg-tab-selected{
+    margin-left: -1px;
+}
+
+.mg-tab-right .mg-tab-bar .mg-btn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* tab container*/
+.mg-tab .mg-tab-container{
+    overflow: auto;
+}
+
+.mg-tab .mg-tab-container .mg-tab-panel{
+    display: none;
+}
+ 
+.mg-tab .mg-tab-container .mg-tab-shown{
+    display: block;
+}

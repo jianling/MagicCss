@@ -1,0 +1,39 @@
+<h2>滑动条</h2>
+<p>
+    由一个进度条和一个滑块组成，滑块可在进度条上拖动，多用于播放器展示播放进度，可以设置滑动条的刻度、滑动范围。
+</p>
+<style type="text/css">
+    #slider2 {
+        height: 200px;
+    }
+</style>
+<!-- demo start -->
+<!-- tpl start -->
+<div id="slider" class="mg-slider mg-slider-htl">
+    <div class="mg-slider-view">
+        <div class="mg-slider-content">
+            <div class="mg-slider-corner mg-slider-start"></div><div class="mg-slider-corner mg-slider-last"></div>
+            <div class="mg-slider-inner">
+                <div class="mg-slider-cache mg-slider-cache-forward" style="width: 50%;">
+                    <div class="mg-slider-cache-corner mg-slider-cache-last"></div>
+                </div>
+                <div class="mg-slider-process mg-slider-process-forward" style="width: 19.4803%;"></div>
+            </div>
+        </div>
+        <a class="mg-slider-knob" style="left: 20%;"></a>
+    </div>
+</div>
+
+<div class="mg-slider mg-slider-vtl" id="slider2">
+    <div class="mg-slider-view">
+        <div class="mg-slider-content">
+            <div class="mg-slider-corner mg-slider-start"></div><div class="mg-slider-corner mg-slider-last"></div>
+            <div class="mg-slider-inner">
+                <div class="mg-slider-process mg-slider-process-undefined" style="height: 28.75%;"></div>
+            </div>
+        </div>
+        <a class="mg-slider-knob" style="top: 30.8989%; left: 0px;"></a>
+    </div>
+</div>
+<!-- tpl end -->
+<!-- demo end -->

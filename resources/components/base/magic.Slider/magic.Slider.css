@@ -1,0 +1,220 @@
+/** slider */
+.mg-slider {
+    font-size: 0;
+    position: relative;
+}
+.mg-slider .mg-slider-inner {
+    position: relative;
+}
+
+.mg-slider-htl {
+    width: 100%;
+}
+.mg-slider-htl .mg-slider-view {
+    margin: 0 11px;
+    height: 20px;
+    padding-top: 1px;
+    position: relative;
+}
+.mg-slider-htl .mg-slider-content {
+    position: relative;
+    height: 8px;
+    top: 50%;
+    margin-top: -4px;
+    padding: 0 9px;
+}
+.mg-slider-htl .mg-slider-inner {
+    height: 8px;
+}
+
+.mg-slider-vtl {
+    height: 100%;
+}
+.mg-slider-vtl .mg-slider-view {
+    position: absolute;
+    top: 11px;
+    bottom: 11px;
+    width: 21px;
+    *height: 100%;
+    *mz: expression(document.compatMode=="CSS1Compat"&&(this.style.height=this.parentNode.clientHeight-parseInt(this.currentStyle.top) -parseInt(this.currentStyle.bottom) +"px" ));
+}
+.mg-slider-vtl .mg-slider-content {
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+.mg-slider-vtl .mg-slider-inner {
+    width: 8px;
+    position: absolute;
+    top: 9px;
+    bottom: 9px;
+    *height: 100%;
+    *mz: expression(document.compatMode=="CSS1Compat"&&(this.style.height=this.parentNode.clientHeight-parseInt(this.currentStyle.top) -parseInt(this.currentStyle.bottom)  +"px" ));
+}
+
+/** 边角 */
+.mg-slider-htl .mg-slider-corner {
+    height: 8px;
+    width: 9px;
+    position: absolute;
+}
+.mg-slider-htl .mg-slider-start {
+    left: 0;
+    top: 0;
+}
+.mg-slider-htl .mg-slider-last {
+    float: right;
+    right: 0;
+    top: 0;
+}
+.mg-slider-htl .mg-slider-start-backward {
+    left: 0;
+    top: 0;
+}
+.mg-slider-htl .mg-slider-last-backward {
+    right: 0;
+    top: 0;
+}
+
+.mg-slider-vtl .mg-slider-corner {
+    height: 9px;
+    width: 8px;
+    position: absolute;
+}
+.mg-slider-vtl .mg-slider-start {
+    left: 0;
+    top: 0;
+}
+.mg-slider-vtl .mg-slider-last {
+    left: 0;
+    bottom: 0;
+}
+.mg-slider-vtl .mg-slider-start-backward {
+    left: 0;
+    top: 0;
+}
+.mg-slider-vtl .mg-slider-last-backward {
+    left: 0;
+    bottom: 0;
+}
+
+/** 游标 */
+.mg-slider .mg-slider-knob {
+    position: absolute;
+    display: block;
+    height: 21px;
+    width: 21px;
+    outline: none;
+    z-index: 10;
+}
+
+.mg-slider-htl .mg-slider-knob {
+    top: 0;
+    margin-left: -11px;
+}
+
+.mg-slider-vtl .mg-slider-knob {
+    top: 0;
+    margin-top: -11px;
+}
+
+/** 进度条 */
+.mg-slider .mg-slider-process {
+    position: absolute;
+    z-index: 6;
+    overflow: hidden;
+}
+
+.mg-slider-htl .mg-slider-process {
+    height: 8px;
+    width: 0px;
+}
+.mg-slider-htl .mg-slider-process-forward {
+    left: 0;
+    top: 0;
+}
+.mg-slider-htl .mg-slider-process-backward {
+    right: 0;
+    top: 0;
+    _right: -1px;
+}
+
+.mg-slider-vtl .mg-slider-process {
+    width: 8px;
+    height: 8px;
+}
+.mg-slider-vtl .mg-slider-process-forward {
+    left: 0;
+    top: 0;
+}
+.mg-slider-vtl .mg-slider-process-backward {
+    left: 0;
+    bottom: 0;
+    _bottom: -1px;
+}
+
+/** 缓存条 */
+.mg-slider .mg-slider-cache {
+    position: absolute;
+}
+
+.mg-slider-htl .mg-slider-cache-corner {
+    width: 9px;
+    height: 6px;
+    position: absolute;
+}
+.mg-slider-htl .mg-slider-cache {
+    height: 6px;
+}
+.mg-slider-htl .mg-slider-cache-forward {
+    left: 0;
+    top: 1px;
+}
+.mg-slider-htl .mg-slider-cache-backward {
+    right: 0;
+    top: 1px;
+    _right: -1px;
+}
+.mg-slider-htl .mg-slider-cache-last {
+    top: 0;
+    right: -8px;
+    z-index: 5;
+}
+.mg-slider-htl .mg-slider-cache-backward .mg-slider-cache-start {
+    top: 0;
+    left: -8px;
+    z-index: 5;
+}
+
+.mg-slider-vtl .mg-slider-cache-corner {
+    width: 6px;
+    height: 9px;
+    position: absolute;
+}
+.mg-slider-vtl .mg-slider-cache {
+    width: 6px;
+}
+.mg-slider-vtl .mg-slider-cache-forward {
+    left: 1px;
+    top: 0;
+}
+.mg-slider-vtl .mg-slider-cache-backward {
+    left: 1px;
+    bottom: 0;
+    _bottom: -1px;
+}
+.mg-slider-vtl .mg-slider-cache-last {
+    bottom: -8px;
+    left: 0;
+    z-index: 5;
+}
+.mg-slider-vtl .mg-slider-cache-backward .mg-slider-cache-start {
+    top: -8px;
+    left: 0;
+    z-index: 5;
+}
+

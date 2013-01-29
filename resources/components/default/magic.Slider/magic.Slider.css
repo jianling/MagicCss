@@ -1,0 +1,105 @@
+.mg-slider-htl .mg-slider-inner {
+    background: url(../resources/components/default/magic.Slider/slider-h-bg.png) repeat-x left top;
+}
+.mg-slider-vtl .mg-slider-inner {
+    background: url(../resources/components/default/magic.Slider/slider-v-bg.png) repeat-y left top;
+}
+/** 边角 */
+.mg-slider-htl .mg-slider-corner {
+    background-image: url(../resources/components/default/magic.Slider/slider-h-corner.png);
+}
+.mg-slider-htl .mg-slider-start {
+    background-position: left top;
+}
+.mg-slider-htl .mg-slider-last {
+    background-position: -9px top;
+}
+.mg-slider-htl .mg-slider-start-backward {
+    background-position: left -8px;
+}
+.mg-slider-htl .mg-slider-last-backward {
+    background-position: -9px -8px;
+}
+.mg-slider-vtl .mg-slider-corner {
+    background-image: url(../resources/components/default/magic.Slider/slider-v-corner.png);
+}
+.mg-slider-vtl .mg-slider-start {
+    background-position: -8px top;
+}
+.mg-slider-vtl .mg-slider-last {
+    background-position: -8px -9px;
+}
+.mg-slider-vtl .mg-slider-start-backward {
+    background-position: left top;
+}
+.mg-slider-vtl .mg-slider-last-backward {
+    background-position: left -9px;
+}
+
+/** 游标 */
+.mg-slider-htl .mg-slider-knob {
+    background: url(../resources/components/default/magic.Slider/slider-h-knob.png) no-repeat left top;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-h-knob.png");
+}
+.mg-slider-htl .mg-slider-knob:hover {
+    background-image: url(../resources/components/default/magic.Slider/slider-h-knobHover.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-h-knobHover.png");
+}
+.mg-slider-htl .mg-slider-knob:active {
+    background-image: url(../resources/components/default/magic.Slider/slider-h-knobHover.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-h-knobHover.png");
+}
+
+.mg-slider-vtl .mg-slider-knob {
+    background: url(../resources/components/default/magic.Slider/slider-v-knob.png) no-repeat left top;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-v-knob.png");
+}
+.mg-slider-vtl .mg-slider-knob:hover {
+    background-image: url(../resources/components/default/magic.Slider/slider-v-knobHover.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-v-knobHover.png");
+}
+.mg-slider-vtl .mg-slider-knob:active {
+    background-image: url(../resources/components/default/magic.Slider/slider-v-knobHover.png);
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../resources/components/default/magic.Slider/slider-v-knobHover.png");
+}
+
+
+/** 进度条 */
+.mg-slider-htl .mg-slider-process {
+    background: url(../resources/components/default/magic.Slider/slider-h-bg1.png) repeat-x left top;
+}
+.mg-slider-vtl .mg-slider-process {
+    background: url(../resources/components/default/magic.Slider/slider-v-bg1.png) repeat-y left top;
+}
+
+
+/** 缓存条 */
+.mg-slider-htl .mg-slider-cache-corner {
+    background-image: url(../resources/components/default/magic.Slider/cache-h-corner.png);
+}
+.mg-slider-htl .mg-slider-cache {
+    background: url(../resources/components/default/magic.Slider/cache-h-bg.png) repeat-x left top;
+}
+.mg-slider-htl .mg-slider-cache-last {
+    background-position: right top;
+}
+
+.mg-slider-vtl .mg-slider-cache-corner {
+    background-image: url(../resources/components/default/magic.Slider/cache-v-corner.png);
+}
+.mg-slider-vtl .mg-slider-cache {
+    background: url(../resources/components/default/magic.Slider/cache-v-bg.png) repeat-y left top;
+}
+.mg-slider-vtl .mg-slider-cache-last {
+    background-position: right top;
+}
+.mg-slider-vtl .mg-slider-cache-backward .mg-slider-cache-start {
+    background-position: left top;
+}
+

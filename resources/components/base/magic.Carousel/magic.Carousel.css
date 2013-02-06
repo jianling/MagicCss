@@ -1,25 +1,19 @@
 /** @import units: [button] **/
-.mg-carousel{
+
+.mg-carousel {
     _position: relative;
 }
-.mg-carousel .mg-carousel-container{
+.mg-carousel .mg-carousel-container {
     position: relative;
-    float:left;
+    float: left;
     overflow: hidden;
 }
-
-.mg-carousel .mg-btn{
+.mg-carousel .mg-btn {
     float: left;
 }
-
-.mg-carousel .mg-carousel-container .mg-btn{
+.mg-carousel .mg-carousel-container .mg-btn {
     position: absolute;
 }
-
-/*.mg-carousel .mg-carousel-container ul{
-    position: absolute;
-}*/
-
-.mg-carousel .mg-carousel-container li{
+.mg-carousel .mg-carousel-container li {
     float: left;
 }

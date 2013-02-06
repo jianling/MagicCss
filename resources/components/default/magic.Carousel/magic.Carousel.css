@@ -1,27 +1,24 @@
-.mg-carousel .mg-carousel-container{
+.mg-carousel .mg-carousel-container {
     background-color: #FFF;
     border: 1px solid #D6D6D6;
 }
-
-.mg-carousel .mg-carousel-container li{
+.mg-carousel .mg-carousel-container li {
     width: 120px;
     height: 120px;
     padding: 10px;
 }
 
 /* carousel horizontal */
-.mg-carousel-horizontal{
+.mg-carousel-horizontal {
     width: 700px;
     height: 142px;
 }
-
 .mg-carousel-horizontal .mg-carousel-container,
-.mg-carousel-horizontal .mg-carousel-container ul{
+.mg-carousel-horizontal .mg-carousel-container ul {
     width: 560px;
     height: 140px;
 }
-
-.mg-carousel-horizontal .mg-btn{
+.mg-carousel-horizontal .mg-btn {
     margin: 45px 8px 5px;
     width: 18px;
     height: 34px;
@@ -30,11 +27,15 @@
 .mg-carousel-horizontal .mg-carousel-previous,
 .mg-carousel-horizontal .mg-carousel-previous:link,
 .mg-carousel-horizontal .mg-carousel-previous:active,
-.mg-carousel-horizontal .mg-carousel-previous:visited {background-position: 0px 0px;}
+.mg-carousel-horizontal .mg-carousel-previous:visited {
+    background-position: 0px 0px;
+}
 .mg-carousel-horizontal .mg-carousel-next,
 .mg-carousel-horizontal .mg-carousel-next:link,
 .mg-carousel-horizontal .mg-carousel-next:active,
-.mg-carousel-horizontal .mg-carousel-next:visited {background-position: -42px 0px;}
+.mg-carousel-horizontal .mg-carousel-next:visited {
+    background-position: -42px 0px;
+}
 .mg-carousel-horizontal .mg-carousel-previous:hover {
     background-position: 0px -42px;
     background-color: #0084FF;
@@ -43,7 +44,6 @@
     background-position: -42px -42px;
     background-color: #0084FF;
 }
-
 .mg-carousel-horizontal .mg-carousel-previous-disabled,
 .mg-carousel-horizontal .mg-carousel-previous-disabled:link,
 .mg-carousel-horizontal .mg-carousel-previous-disabled:visited,
@@ -51,7 +51,6 @@
 .mg-carousel-horizontal .mg-carousel-previous-disabled:active {
     background-position: 0px -84px;
 }
-
 .mg-carousel-horizontal .mg-carousel-next-disabled,
 .mg-carousel-horizontal .mg-carousel-next-disabled:link,
 .mg-carousel-horizontal .mg-carousel-next-disabled:visited,
@@ -59,48 +58,46 @@
 .mg-carousel-horizontal .mg-carousel-next-disabled:active {
     background-position: -42px -84px;
 }
-
-.mg-carousel-horizontal .mg-carousel-container .mg-btn{
+.mg-carousel-horizontal .mg-carousel-container .mg-btn {
     margin: 45px 0px 5px;
 }
-
-.mg-carousel-horizontal .mg-carousel-container .mg-carousel-previous{
+.mg-carousel-horizontal .mg-carousel-container .mg-carousel-previous {
     left: 0px;
     top: 0px;
 }
-
-.mg-carousel-horizontal .mg-carousel-container .mg-carousel-next{
+.mg-carousel-horizontal .mg-carousel-container .mg-carousel-next {
     right: 0px;
     top: 0px;
 }
 
 /* carousel vertical */
-.mg-carousel-vertical{
+.mg-carousel-vertical {
     width: 142px;
     height: 675px;
 }
-
-.mg-carousel-vertical .mg-carousel-container{
+.mg-carousel-vertical .mg-carousel-container {
     width: 140px;
     height: 560px;
 }
-
-.mg-carousel-vertical .mg-btn{
+.mg-carousel-vertical .mg-btn {
     margin: 8px 5px 8px 47px;
     padding: 4px 5px;
     width: 34px;
     height: 34px;
     background: url(../resources/components/default/magic.Carousel/carousel-vertical-btn.png) no-repeat;
 }
-
 .mg-carousel-vertical .mg-carousel-previous,
 .mg-carousel-vertical .mg-carousel-previous:link,
 .mg-carousel-vertical .mg-carousel-previous:active,
-.mg-carousel-vertical .mg-carousel-previous:visited {background-position: -8px 0px;}
+.mg-carousel-vertical .mg-carousel-previous:visited {
+    background-position: -8px 0px;
+}
 .mg-carousel-vertical .mg-carousel-next,
 .mg-carousel-vertical .mg-carousel-next:link,
 .mg-carousel-vertical .mg-carousel-next:active,
-.mg-carousel-vertical .mg-carousel-next:visited {background-position: -8px -42px;}
+.mg-carousel-vertical .mg-carousel-next:visited {
+    background-position: -8px -42px;
+}
 .mg-carousel-vertical .mg-carousel-previous:hover {
     background-position: -70px 0px;
     background-color: #0084FF;
@@ -109,7 +106,6 @@
     background-position: -70px -42px;
     background-color: #0084FF;
 }
-
 .mg-carousel-vertical .mg-carousel-previous-disabled,
 .mg-carousel-vertical .mg-carousel-previous-disabled:link,
 .mg-carousel-vertical .mg-carousel-previous-disabled:visited,
@@ -117,7 +113,6 @@
 .mg-carousel-vertical .mg-carousel-previous-disabled:active {
     background-position: -132px 0px;
 }
-
 .mg-carousel-vertical .mg-carousel-next-disabled,
 .mg-carousel-vertical .mg-carousel-next-disabled:link,
 .mg-carousel-vertical .mg-carousel-next-disabled:visited,
@@ -125,17 +120,14 @@
 .mg-carousel-vertical .mg-carousel-next-disabled:active {
     background-position: -132px -42px;
 }
-
-.mg-carousel-vertical .mg-carousel-container .mg-btn{
+.mg-carousel-vertical .mg-carousel-container .mg-btn {
     margin: 0px 5px 0px 47px;
 }
-
-.mg-carousel-vertical .mg-carousel-container .mg-carousel-previous{
+.mg-carousel-vertical .mg-carousel-container .mg-carousel-previous {
     top: 0px;
     left: 0px;
 }
-
-.mg-carousel-vertical .mg-carousel-container .mg-carousel-next{
+.mg-carousel-vertical .mg-carousel-container .mg-carousel-next {
     bottom: 0px;
     left: 0px;
 }

@@ -1,32 +1,32 @@
 /* tab bar */
-.mg-tab-top .mg-tab-bar{
+.mg-tab-top .mg-tab-bar {
     border-bottom: 1px solid #BBB;
 }
 
-.mg-tab-top .mg-tab-bar .mg-tab-selected{
-    border-color: #BBB #BBB white;
+.mg-tab-top .mg-tab-bar .mg-tab-selected {
+    border-color: #BBB #BBB #F00;
 }
 
-.mg-tab-bottom .mg-tab-bar{
+.mg-tab-bottom .mg-tab-bar {
     border-top: 1px solid #BBB;
 }
 
-.mg-tab-bottom .mg-tab-bar .mg-tab-selected{
-    border-color: white #BBB #BBB;
+.mg-tab-bottom .mg-tab-bar .mg-tab-selected {
+    border-color: #F00 #BBB #BBB;
 }
 
-.mg-tab-left .mg-tab-bar{
+.mg-tab-left .mg-tab-bar {
     border-right: 1px solid #BBB;
 }
 
-.mg-tab-left .mg-tab-bar .mg-tab-selected{
-    border-color: #BBB white #BBB #BBB;
+.mg-tab-left .mg-tab-bar .mg-tab-selected {
+    border-color: #BBB #F00 #BBB #BBB;
 }
 
-.mg-tab-right .mg-tab-bar{
+.mg-tab-right .mg-tab-bar {
     border-left: 1px solid #BBB;
 }
 
-.mg-tab-right .mg-tab-bar .mg-tab-selected{
-    border-color: #BBB #BBB #BBB white;
+.mg-tab-right .mg-tab-bar .mg-tab-selected {
+    border-color: #BBB #BBB #BBB #F00;
 }

@@ -1,8 +1,9 @@
 /** @import units: [button] **/
+
 .mg-pager {
-	font-size : 13px;
-	font-family : arial;
-	margin:10px;
+	font-size: 13px;
+	font-family: arial;
+	margin: 10px;
 }
 .mg-pager .mg-pager-first,
 .mg-pager .mg-pager-previous,
@@ -10,6 +11,6 @@
 .mg-pager .mg-pager-current,
 .mg-pager .mg-pager-next,
 .mg-pager .mg-pager-last {
-    margin-right:10px;
-    text-align:center;
+    margin-right: 10px;
+    text-align: center;
 }

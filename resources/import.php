@@ -1,5 +1,5 @@
 <?php
-    header("Content-type: text/css");
+    header("Content-type: text/css; charset=utf-8");
     
     $units_base_dir = '../resources/units/base/';
     $components_base_dir = '../resources/components/base/';

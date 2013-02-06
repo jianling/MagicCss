@@ -1,69 +1,69 @@
-.mg-tooltip{
+.mg-tooltip {
     background-color: #FFF;
     border: 1px solid #D6D6D6;
     padding: 5px 14px 5px 8px;
 }
 
-.mg-tooltip .mg-btn{
+.mg-tooltip .mg-btn {
     padding: 0px 2px;
     margin: 2px;
     background: transparent;
 }
 
-.mg-tooltip .close-btn{
-    top:2px; 
-    right:2px;
+.mg-tooltip .close-btn {
+    top: 2px; 
+    right: 2px;
 }
 
-.mg-tooltip .mg-tooltip-arrow{
-    background:#FFF url(../resources/components/default/magic.Tooltip/arrow.gif) no-repeat;
+.mg-tooltip .mg-tooltip-arrow {
+    background: #FFF url(../resources/components/default/magic.Tooltip/arrow.gif) no-repeat;
     _font-size: 0px;
 }
 
-.mg-tooltip .mg-arrow-up{
+.mg-tooltip .mg-arrow-up {
     top: -10px;
     left: 2px;
 }
 
-.mg-tooltip .mg-arrow-down{
+.mg-tooltip .mg-arrow-down {
     bottom: -10px;
     left: 2px;
 }
 
-.mg-tooltip .mg-arrow-left{
+.mg-tooltip .mg-arrow-left {
     left: -9px;
     top: 2px;
 }
 
-.mg-tooltip .mg-arrow-right{
+.mg-tooltip .mg-arrow-right {
     right: -9px;
     top: 2px;
 }
 
 .mg-tooltip .mg-arrow-up,
-.mg-tooltip .mg-arrow-down{
+.mg-tooltip .mg-arrow-down {
     height: 10px;
     width: 15px;
 }
 
 .mg-tooltip .mg-arrow-left,
-.mg-tooltip .mg-arrow-right{
+.mg-tooltip .mg-arrow-right {
     height: 15px;
     width: 10px;
 }
 
-.mg-tooltip .mg-arrow-up{
+.mg-tooltip .mg-arrow-up {
     background-position: 0px 2px;   
 }
 
-.mg-tooltip .mg-arrow-down{
+.mg-tooltip .mg-arrow-down {
     background-position: 0px -10px;
 }
 
-.mg-tooltip .mg-arrow-left{
+.mg-tooltip .mg-arrow-left {
     background-position: -17px -1px;
 }
 
-.mg-tooltip .mg-arrow-right{
+.mg-tooltip .mg-arrow-right {
     background-position: -26px -1px;
 }

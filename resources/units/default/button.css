@@ -1,4 +1,4 @@
-.mg-btn{
+.mg-btn {
     color: #333;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
     border: 1px solid #BBB;
@@ -12,18 +12,21 @@
     background-repeat: repeat-x;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
-.mg-btn:hover, .mg-btn:active, .mg-btn.active{
+.mg-btn:hover,
+.mg-btn:active,
+.mg-btn.active {
     color: #333333;
     background-color: #E6E6E6;
     *background-color: #D9D9D9;
     background-position: 0 -15px;
 }
-.mg-btn:active, .mg-btn.active {
+.mg-btn:active,
+.mg-btn.active {
     background-color: #CCC \9;
 }
 
 /** primary **/
-.mg-btn-primary{
+.mg-btn-primary {
     color: #FFF;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
     background-color: #006DCC;
@@ -37,7 +40,9 @@
     border-color: #04C #04C #002A80;
     border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
 }
-.mg-btn-primary:hover, .mg-btn-primary:active, .mg-btn-primary.active{
+.mg-btn-primary:hover,
+.mg-btn-primary:active,
+.mg-btn-primary.active {
     color: #FFF;
     background-color: #04C;
     *background-color: #003BB3;
@@ -45,11 +50,13 @@
 }
 
 /** disabled **/
-.mg-btn-disabled{
+.mg-btn-disabled {
     color: #BBB;
     cursor: not-allowed;
 }
-.mg-btn-disabled:hover, .mg-btn-disabled:active, .mg-btn-disabled.active{
+.mg-btn-disabled:hover,
+.mg-btn-disabled:active,
+.mg-btn-disabled.active {
     color: #BBB;
     background-color: #F5F5F5;
     *background-color: #E6E6E6;

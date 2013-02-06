@@ -1,80 +1,69 @@
 /** @import units: [dropdown, icon, textinput] **/
-.clearfix:after {
-	content : ".";
-	display : block;
-	visibility : hidden;
-	height : 0;
-	clear : both;
-}
 
+.clearfix:after {
+    display: block;
+    height: 0;
+	content: ".";
+	visibility: hidden;
+    clear: both;
+}
 .clearfix {
-	zoom : 1;
+	zoom: 1;
 }
 .mg-combobox-container {
-	position:relative;
-	overflow:hidden;
+	position: relative;
+	overflow: hidden;
 	padding: 0 20px 0 10px;
 }
-.mg-combobox .mg-dropdown{
-    border-radius:0;
+.mg-combobox .mg-dropdown {
+    border-radius: 0;
 }
-
 .mg-combobox .mg-combobox-input {
 	height: 23px;
-	line-height : 23px;
+	line-height: 23px;
     width: 100%;
-	border : 0;
-	padding : 0;
-	margin : 0;
-	font-size : 12px;
-	color : #333;
-	background : #FFF;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	color: #333;
+	background: #FFF;
 }
 .mg-combobox .mg-combobox-input:focus {
-	outline : none;
+	outline: none;
 }
-
-
-
 .mg-combobox-menu,.mg-combobox-menu .mg-combobox-menu-item {
-	padding : 0;
-	margin : 0;
+	padding: 0;
+	margin: 0;
 }
-
 .mg-combobox-menu .mg-combobox-menu-item {
-	font-size : 12px;
-	cursor : default;
-	padding : 6px 0 6px 10px;
+	font-size: 12px;
+	cursor: default;
+	padding: 6px 0 6px 10px;
 }
-
 .mg-combobox-menu .mg-combobox-menu-item-hover {
 
 }
-
 .mg-combobox-disable .mg-combobox-arrow,
 .mg-combobox-disable .mg-combobox-arrow:hover {
-	cursor : default;
+	cursor: default;
 }
-
 .mg-combobox-host {
-	position : relative;
+	position: relative;
 }
 .mg-combobox-container-setup {
-	position : absolute;
-	top : -5px;
-	left : 0;
+	position: absolute;
+	top: -5px;
+	left: 0;
 }
-
-
 .mg-combobox .mg-dropdown{
     border-radius: 0 0 4px 4px;
 }
 .mg-combobox .mg-icon-chevron-down {
-    margin-top : 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4px;
     margin-right: 3px;
-    position:absolute;
-    right:0;
-    top:0;
-    float : right;
-    overflow : hidden;
+    overflow: hidden;
 }

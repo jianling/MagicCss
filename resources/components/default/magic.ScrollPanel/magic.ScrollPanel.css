@@ -1,6 +1,6 @@
 /** slider */
 .mg-scrollpanel .mg-slider {
-    background:url(../resources/components/default/magic.ScrollPanel/bg.gif) repeat-y -18px 0;
+    background: url(../resources/components/default/magic.ScrollPanel/bg.gif) repeat-y -18px 0;
 }
 .mg-scrollpanel .mg-slider .mg-inner {
     position: relative;
@@ -8,22 +8,22 @@
 .mg-scrollpanel .mg-slider-vtl .mg-corner {
     height: 18px;
     width: 18px;
-    background:url(../resources/components/default/magic.ScrollPanel/bg.gif) no-repeat;
+    background: url(../resources/components/default/magic.ScrollPanel/bg.gif) no-repeat;
     position: absolute;
 }
 .mg-scrollpanel .mg-slider-vtl .mg-start {
-    background-position:0 0;
+    background-position: 0 0;
 }
 .mg-scrollpanel .mg-slider-vtl .mg-last {
-    background-position:0 -18px;
+    background-position: 0 -18px;
 }
 
 /** 游标 */
 .mg-scrollpanel .mg-slider .mg-knob {
     height: 16px;
     width: 16px;
-    border:1px solid #D2D2D3;
+    border: 1px solid #D2D2D3;
 }
 .mg-scrollpanel .mg-slider-vtl .mg-knob {
-    background:#FFF;
+    background: #FFF;
 }

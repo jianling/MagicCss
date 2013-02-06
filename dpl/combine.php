@@ -68,8 +68,8 @@
     <script type="text/javascript" src="CssShare.js"></script>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="CssShare.css" />
-    <link rel="stylesheet" href="../resources/units/default/common.css" />
     <link rel="stylesheet" href="../resources/import.php" />
+    <link rel="stylesheet" href="../resources/units/default/common.css" />
 </head>
 <body>
     <div class="header">        

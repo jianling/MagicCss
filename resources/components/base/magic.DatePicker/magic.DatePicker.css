@@ -1,20 +1,19 @@
 /** @import units: [title, icon] **/
-/**
- * Calendar默认皮肤样式
- */
+
 .mg-datepicker {
     font-family: Arial, '宋体';
     font-size: 12px;
     width: 230px;
     position: relative;
 }
-
-.mg-datepicker-title{
+.mg-datepicker-title {
     text-align: center;
     font-size: 14px;
 }
-
-.mg-datepicker-prebtn, .mg-datepicker-nextbtn, .mg-datepicker-yprebtn, .mg-datepicker-ynextbtn {
+.mg-datepicker-prebtn,
+.mg-datepicker-nextbtn,
+.mg-datepicker-yprebtn,
+.mg-datepicker-ynextbtn {
     position: absolute;
     top: 8px;
     cursor: pointer;
@@ -43,7 +42,8 @@
 .mg-datepicker-table table thead {
     border-collapse: collapse;/*不加这句 thead无法设置边框样式*/
 }
-.mg-datepicker-table td, .mg-datepicker-table th {
+.mg-datepicker-table td,
+.mg-datepicker-table th {
     text-align: center;
 }
 .mg-datepicker-table tbody td {
@@ -57,37 +57,30 @@
     *height: 21px;
 }
 
-
-
 /**
  *     插件部分的样式
  */
-.mg-datepicker-title-date span{
+.mg-datepicker-title-date span {
     cursor: pointer;
 }
-/**
- *      timer插件的样式
- */
+/** timer插件的样式 */
 .mg-datepicker-timer {
     float: left;
     overflow: hidden;
-    padding:3px 0 3px 10px;
+    padding: 3px 0 3px 10px;
 }
-
 /* 浮动数值区域 */
 .mg-datepicker-timer-choosen {
     position: absolute;
     width: 120px;
     bottom: 25px;
 }
-
 .mg-datepicker-timer-ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
 }
-
 .mg-datepicker-timer-li {
     list-style: none;
     float: left;
@@ -96,62 +89,55 @@
     text-align: center;
     cursor: pointer;
 }
-
 /* 时分秒区域 */
-.mg-datepicker-timer-character{
+.mg-datepicker-timer-character {
     line-height: 16px;
     font-size: 12px;
-    padding-right:10px;
-    float:left;
+    padding-right: 10px;
+    float: left;
 }
-.mg-datepicker-timer-input, .mg-datepicker-timer-character{
+.mg-datepicker-timer-input,
+.mg-datepicker-timer-character {
     height: 16px;
     text-align: center;
     border: none;
     float: left;
 }
-
 .mg-datepicker-timer-hms {
     width: 18px;
 }
-
 .mg-datepicker-timer-colon {
     width: 7px;
 }
-
 .mg-datepicker-timer .mg-datepicker-input-both {
     border-left: 0px;
     border-right: 0px;
 }
-
 .mg-datepicker-timer .mg-datepicker-input-right {
     border-right: 0px;
 }
-.mg-datepicker-timer-inputs{
-    height:23px;
-    padding:5px 10px 0 0;
-    _padding:7px 10px 0 0;
+.mg-datepicker-timer-inputs {
+    height: 23px;
+    padding: 5px 10px 0 0;
+    _padding: 7px 10px 0 0;
     float: left;
 }
-.mg-datepicker-timer-btns{
-    float:left;
+.mg-datepicker-timer-btns {
+    float: left;
 }
-.mg-datepicker-timer-btns .mg-icon{
+.mg-datepicker-timer-btns .mg-icon {
     display: block;
 }
-
 /* 今天插件区域 */
 .mg-datepicker .mg-datepicker-footer {
     overflow: hidden;
     _zoom: 1;
 }
-
-.mg-datepicker-footer  .mg-datepicker-footer-button {
-    float:right;
+.mg-datepicker-footer .mg-datepicker-footer-button {
+    float: right;
     margin: 5px 5px 0 0;
     _margin-top: 6px;
     height: 14px;
     font-size: 12px;
     line-height: 14px;
 }
-

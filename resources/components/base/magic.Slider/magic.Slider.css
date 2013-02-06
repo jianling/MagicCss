@@ -26,7 +26,6 @@
 .mg-slider-htl .mg-slider-inner {
     height: 8px;
 }
-
 .mg-slider-vtl {
     height: 100%;
 }
@@ -191,9 +190,9 @@
 }
 
 .mg-slider-vtl .mg-slider-cache-corner {
+    position: absolute;
     width: 6px;
     height: 9px;
-    position: absolute;
 }
 .mg-slider-vtl .mg-slider-cache {
     width: 6px;
@@ -217,4 +216,3 @@
     left: 0;
     z-index: 5;
 }
-

@@ -32,7 +32,10 @@
 /**
  *     插件部分的样式
  */
-.mg-datepicker-prebtn, .mg-datepicker-nextbtn, .mg-datepicker-yprebtn, .mg-datepicker-ynextbtn {
+.mg-datepicker-prebtn,
+.mg-datepicker-nextbtn,
+.mg-datepicker-yprebtn,
+.mg-datepicker-ynextbtn {
     opacity: .7;
 }
 /**
@@ -52,10 +55,10 @@
     color: #FFF;
 }
 /* 时分秒区域 */
-.mg-datepicker-timer-character{
+.mg-datepicker-timer-character {
     color: #444;
 }
-.mg-datepicker-timer-btns .mg-icon{
+.mg-datepicker-timer-btns .mg-icon {
     opacity: .7;
 }
 
@@ -64,4 +67,3 @@
     border: 1px solid #d4d4d4;
     border-width: 0 1px 1px 1px;
 }
-

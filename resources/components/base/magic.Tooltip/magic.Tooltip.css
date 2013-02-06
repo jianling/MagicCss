@@ -1,24 +1,25 @@
 /** @import units: [button] **/
-.mg-tooltip{
+
+.mg-tooltip {
     position: absolute;
     border-radius: 4px;
 }
 
-.mg-tooltip .mg-btn{
+.mg-tooltip .mg-btn {
     float: right;
 }
 
-.mg-tooltip .mg-tooltip-arrow{
+.mg-tooltip .mg-tooltip-arrow {
     position: absolute;
 }
 
-.mg-tooltip .close-btn{
-    position:absolute; 
+.mg-tooltip .close-btn {
+    position: absolute; 
     display: block;
     outline: none;
     cursor: pointer;
 }
 
-.mg-tooltip .mg-tooltip-content{
+.mg-tooltip .mg-tooltip-content {
     white-space: nowrap;
 }
